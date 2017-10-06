@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://app.onelogin.com/saml/metadata/528976">
+  <IDPSSODescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEgDCCA2igAwIBAgIUH3n0yQhDhQIKINAnKRFPRPYHLXAwDQYJKoZIhvcNAQEF
+BQAwezELMAkGA1UEBhMCVVMxCzAJBgNVBAgMAkNBMRYwFAYDVQQHDA1TYW4gRnJh
+bmNpc2NvMQ8wDQYDVQQKDAZBaXJibmIxFTATBgNVBAsMDE9uZUxvZ2luIElkUDEf
+MB0GA1UEAwwWT25lTG9naW4gQWNjb3VudCA0NjAwNzAeFw0xNzA1MzEwNzMzMTZa
+Fw0yMjA2MDEwNzMzMTZaMHsxCzAJBgNVBAYTAlVTMQswCQYDVQQIDAJDQTEWMBQG
+A1UEBwwNU2FuIEZyYW5jaXNjbzEPMA0GA1UECgwGQWlyYm5iMRUwEwYDVQQLDAxP
+bmVMb2dpbiBJZFAxHzAdBgNVBAMMFk9uZUxvZ2luIEFjY291bnQgNDYwMDcwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDbTvVnXjiqnfk3U4PTcM1RhYJ5
+X4DmP6k8a7od6T3heuBI8bRG9hTUNmWRTrfqx/ApFXh42T/I2PHd++ttaOayFs+Y
+OjUgR1az8ZwA9IV6axf+J0PjIe3z/L6S5nBu71oEcuar10DMV9QsYsjoBzIT0Z1d
+a7+AQnN1wGFvhr1kMQBTJaTqF5pft75j25oZNYmMIPaJ/NvibxIxVVKn19NKxSgy
+uVEY34wlMbNf28Kdwo46wmX8CL1iyCDEIucpg9guuOTLfNKp4eTfQmSJY7dSDEX2
+MtyYZUr72szDeXkIVOSlwTkYuU2ITzxzrFsLM9PQ1Kfz3ePJpA6TObK0+Q0tAgMB
+AAGjgfswgfgwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUW3q9b4hIz4cOOaT+abP0
+qEK0lRUwgbgGA1UdIwSBsDCBrYAUW3q9b4hIz4cOOaT+abP0qEK0lRWhf6R9MHsx
+CzAJBgNVBAYTAlVTMQswCQYDVQQIDAJDQTEWMBQGA1UEBwwNU2FuIEZyYW5jaXNj
+bzEPMA0GA1UECgwGQWlyYm5iMRUwEwYDVQQLDAxPbmVMb2dpbiBJZFAxHzAdBgNV
+BAMMFk9uZUxvZ2luIEFjY291bnQgNDYwMDeCFB959MkIQ4UCCiDQJykRT0T2By1w
+MA4GA1UdDwEB/wQEAwIHgDANBgkqhkiG9w0BAQUFAAOCAQEAxPvWQk3nM+xrJR0C
+2BLKt8yLFZM4ujDr25YD3vSQgEWW+KindYN5jcXw1KE9jryc/X6J0HhkvlCPWKWT
+1ROiqCoUje0U5m/Mw3MDcq7y9RwGcpd9hL40hbP6+UAs0qg3p95JbKDaed4p0BW3
+OqHvtzdX6dxPLtLnvacDYvjJ0z1PfP9kmk7fi4hW+XxbykqKdogMxgIaehklbCbB
+OX6vZrYfkqzbsnXaXPFRurjQzp7Wy0/Cg7KR4hKeB0+ppkSsbdccmPTCJyUsjnxD
+hQbvA8xf0Gpe29gXzokw2o/CUcbfrBr6IT75Ho4jI+K8wyIAW3qTLU+PmUquIluh
+JVcRGA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://airbnb.onelogin.com/trust/saml2/http-redirect/slo/528976"/>
+
+      <NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://airbnb.onelogin.com/trust/saml2/http-redirect/sso/528976"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://airbnb.onelogin.com/trust/saml2/http-post/sso/528976"/>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://airbnb.onelogin.com/trust/saml2/soap/sso/528976"/>
+  </IDPSSODescriptor>
+</EntityDescriptor>
